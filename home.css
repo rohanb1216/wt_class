@@ -1,0 +1,9 @@
+
+.reviewInactive{
+  display: none;
+  border-radius: 6px;
+}
+.reviewActive{
+  border-radius: 6px;
+  background: rgb(79, 168, 83,0.8);
+}

@@ -1,0 +1,125 @@
+@keyframes bgswitch {
+  0% {
+    background-image: url(bg1.jpg);
+  }
+
+  25% {
+    background-image: url(bg1.jpg);
+  }
+
+  75% {
+    background-image: url(bg2.jpg);
+  }
+
+  100% {
+    background-image: url(bg2.jpg);
+  }
+}
+
+.bg {
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  animation-name: bgswitch;
+  /* animation-timing-function: ease-in-out; */
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+  animation-direction: alternate;
+}
+
+button{
+  padding: 10px 24px;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+  width: 250px;
+  background-color: #4fa853;
+  font-family: Product Sans, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+  background-color: #427e45; /* Green */  
+}
+button.nxt{
+  display: inline-block;
+  height: 40px;
+  width: 30px;
+  border-radius: 8px;
+  background-color: #4fa853;
+  color: white;
+  border-color: #298d67;
+}
+button.prev{
+  display: inline-block;
+  height: 40px;
+  width: 30px;
+  border-radius: 8px;
+  background-color: lightgray;
+  color: black;
+  border-color: #298d67;
+
+}
+footer{
+  width:100%;
+  opacity: 0.8;
+  background: black;
+  color: slategray;
+  height: 200px;
+  border-radius: 6px;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4fa853;
+  border-radius: 4px;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: rgb(66, 184, 135);
+  color: black;
+}
+
+#navbar a.active {
+  background-color: rgb(48, 119, 51);
+  color: white;
+}
+
+
+li a:hover {
+  background-color: #298d67;
+}
+
+h1 {
+  color: green;
+  font-family: 'Product Sans', Helvetica, sans-serif;
+
+}
+body{
+  font-family: 'Product Sans', Helvetica, sans-serif;
+  /* color: lightgray; */
+  text-align: center;
+}
+div {
+  background-color: rgb(211, 211, 211,0.5);
+  border-radius: 4px;
+}
+
+#logo {
+  font-family: "Adamina";
+  text-align: right;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

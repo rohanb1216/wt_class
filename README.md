@@ -1,2 +1,3 @@
-# wt_class
-BOTTOM TEXT
+# BottomTextTravels
+dunno why we have to do this
+can someone fix contactus thank you
